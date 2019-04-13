@@ -1,0 +1,417 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 16, 2016, 3:49:10 PM
+    Author     : Mateo
+*/
+#myCanvas1{
+    padding-left: 100px;
+}
+.img {
+    margin: 5px;
+    border: 2px solid black;
+    float: left;
+}
+.desc{
+    padding: 15px;
+    text-align: center;
+}
+.img:hover {
+    border: 2px solid #1ABB9C;
+}
+#slika{
+    float: left;
+}
+.prihvaceno{
+            width: 1200px;
+}
+.odbijeno{
+        display: -webkit-box;
+}
+#sadrzaj_slike{
+    padding-left: 450px;
+    font-size: 22px;
+}
+#formaodkljucaj{
+        float: right;
+        margin-right: 600px;
+}
+#formazakljucaj{
+        float: right;
+        margin-right: 20px;
+}
+#pogreskakorime1 {
+        font-size: 12px;
+        color: #FF0000;
+}
+#pogreskakorime2{
+        font-size: 12px;
+        color: #FF0000;
+}
+
+#pogreskalozinka1{
+        font-size: 12px;
+        color: #FF0000;
+}
+
+#pogreskalozinka2{
+        font-size: 12px;
+        color: #FF0000;
+}
+
+#pogreskamail{
+        font-size: 12px;
+        color: #FF0000;
+}
+
+#pogreskarodendan{
+        font-size: 12px;
+        color: #FF0000;
+}
+
+#pogreskakorime3{
+        font-size: 12px;
+        color: #FF0000;
+}
+
+#pogreskakorime4{
+        font-size: 12px;
+        color: #FF0000;
+}
+
+#pogreskarodendan1{
+        font-size: 12px;
+        color: #FF0000;
+}
+#pogreskanazivuredaja{
+        font-size: 12px;
+        color: #FF0000;
+}
+#pogreskacijenauredaja{
+        font-size: 12px;
+        color: #FF0000;
+}
+#pogreskakamera{
+        font-size: 12px;
+        color: #FF0000;
+}
+#pogreskagprs{
+        font-size: 12px;
+        color: #FF0000;
+}
+#pogreskabluetooth{
+        font-size: 12px;
+        color: #FF0000;
+}
+#pogreskabaterija{
+        font-size: 12px;
+        color: #FF0000;
+}
+#pogreskamjesec1{
+        font-size: 12px;
+        color: #FF0000;
+}
+
+#pogreskadan1{
+        font-size: 12px;
+        color: #FF0000;
+}
+#pogreskamail1{
+        font-size: 12px;
+        color: #FF0000;
+}
+#pogreskanaziv{
+        font-size: 12px;
+        color: #FF0000;
+}
+#pogreskamoderator{
+        font-size: 12px;
+        color: #FF0000;
+}
+#pogreskalokacija{
+        font-size: 12px;
+        color: #FF0000;
+}
+#pogreskakategorija{
+        font-size: 12px;
+        color: #FF0000;
+}
+#pogreskaulice{
+        font-size: 12px;
+        color: #FF0000;
+}
+#pogreskabroj{
+        font-size: 12px;
+        color: #FF0000;
+}
+#pogreskakategorija{
+        font-size: 12px;
+        color: #FF0000;
+}
+#pogreskalatitude{
+        font-size: 12px;
+        color: #FF0000;
+}
+#pogreskalongitude{
+        font-size: 12px;
+        color: #FF0000;
+}
+#pogreskagrad{
+        font-size: 12px;
+        color: #FF0000;
+}
+#pogreskaanketa{
+        font-size: 12px;
+        color: #FF0000;
+}
+#pogreskakategorijaanketa{
+        font-size: 12px;
+        color: #FF0000;
+}
+#pogreskaopis{
+        font-size: 12px;
+        color: #FF0000;
+}
+
+
+html{
+    height: 100%;
+}
+figure{
+    font-weight: 700;
+}
+#reset {
+    color: #2A3F54;
+}
+#reset:hover{
+    color: #1ABB9C;
+    
+}
+#pomak {
+    color: #2A3F54;
+}
+#pomak:hover{
+    color: #1ABB9C;
+    
+}
+body{
+    background: #fff;
+    margin: 0px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    height: 1500px;
+}
+nav {
+    width: 25%;
+    display: inline;
+    
+}
+.audio{
+    padding-left: 8%
+}
+.video {
+    width: 1200px;
+}
+footer{
+	color:#fff;
+	font-size:12px;
+	position:relative;
+	z-index:-2;
+	background-color:#2A3F54;
+        text-align: center;
+        right: 0;
+        bottom: 0;
+        left: 0;
+
+}
+#sadrzaj{
+    color: #2A3F54;
+    padding-left: 300px;
+    font-weight: 700;
+    height: 100%;
+}
+#slikeindex{
+    height: auto;
+    width: 1300px;
+}
+
+
+table,th, td{
+    border: 1px solid #1ABB9C; 
+    color: black;
+    border-style: solid;
+}
+nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 285px;
+    overflow: hidden;
+    background-color: #2A3F54;
+    font-family: Capriola, Helvetica, sans-serif;
+
+}
+
+nav > ul li a {
+    display: block;
+    color: #ffffff;
+    padding: 30px 20px;
+    text-decoration: none;
+}
+
+nav > ul li a:hover {
+    background-color: #1ABB9C;
+    color: white;
+}
+
+nav > ul li {
+    text-align: center;
+    border-right: 2px solid#fff;
+    float:left;
+    font-weight: 700;
+}
+#dokumentacija1{
+    
+    height: 4500px;
+}
+nav > ul li .stranica {
+    transition: 0.4s;
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+nav > ul li #pomakvremena{
+    transition: 0.4s;
+    background-color: #1ABB9C;
+}
+nav > ul li #crud{
+    transition: 0.4s;
+    background-color: #1ABB9C;
+}
+nav > ul li #dokumentacija{
+    transition: 0.4s;
+    background-color: #1ABB9C;
+}
+nav > ul li #oautoru{
+    transition: 0.4s;
+    background-color: #1ABB9C;
+}
+nav > ul li #dodaj_uredaj{
+    transition: 0.4s;
+    background-color: #1ABB9C;
+}
+nav > ul li #galerija{
+    transition: 0.4s;
+    background-color: #1ABB9C;
+}
+nav > ul li #mobiteliikategorija{
+    transition: 0.4s;
+    background-color: #1ABB9C;
+}
+nav > ul li #pocetnastranica{
+    transition: 0.4s;
+    background-color: #1ABB9C;
+}
+nav > ul li #odbijeni{
+    transition: 0.4s;
+    background-color: #1ABB9C;
+}
+nav > ul li #uredaji{
+    transition: 0.4s;
+    background-color: #1ABB9C;
+}
+nav > ul li #dnevnikrada{
+    transition: 0.4s;
+    background-color: #1ABB9C;
+}
+nav > ul li #pocetna{
+    transition: 0.4s;
+    background-color: #1ABB9C;
+}
+nav > ul li #ankete{
+    transition: 0.4s;
+    background-color: #1ABB9C;
+}
+nav > ul li #prijava {
+    transition: 0.4s;
+    background-color: #1ABB9C;
+}
+nav > ul li #registracija {
+    transition: 0.4s;
+    background-color: #1ABB9C;
+}
+nav > ul li #kreirajkategoriju {
+    transition: 0.4s;
+    background-color: #1ABB9C;
+}
+nav > ul li #vidistatistiku{
+    transition: 0.4s;
+    background-color: #1ABB9C;
+}
+div > figure a img{
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 25px;
+}
+
+div > figure figcaption {
+    font-size: 20px;
+    font-family: "Times New Roman";
+    color: #ffffff ;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#slikeindex > figure{
+    border: 6px;
+    background-color: #18c905;
+    border-color: #4b4b4b;
+    border-radius: 10px;
+    border-style: solid;
+    display: inline-block;
+}
+#sadrzaj > #bullets li  {
+     list-style-type: square;
+     color: #ffffff;
+}
+#sadrzaj > #bullets li a{
+    color: #ffffff;
+}
+#sadrzaj > #bullets li a:visited{
+    color: #4b4b4b;
+}
+figcaption > h1 > a{
+    color: #fff;
+}
+figcaption > h1{
+    font-size: 25px;
+}
+
+address > a {
+    color: white;
+}
+.tablica_zaglavlje > th{
+    color: #18c905;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    width: 99%;
+}
+#sadrzaj1{
+        width: 250px;
+}
+.tablica > tr > td:hover{
+    background-color: blue;
+}
+.ispravanUnos{
+    border-color: green;
+}
+.pogresanUnos{
+    border-color: red;
+}
+table{
+    background-color: white;
+}
